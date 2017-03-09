@@ -1,0 +1,60 @@
+.body {
+  background-color: white;
+  
+}
+
+.lobster {
+  font-family: Lobster;
+  
+}
+.center {
+  text-align: center;
+  
+}
+
+#calculate_bold {
+  margin-top:6px;
+  margin-bottom:6px;
+  font-weight: bold;
+  background-color: tomato;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);  
+}
+.btn-default, #bill_with_taxes, #bill_no_taxes, #friends_html, #my_tip {
+  margin-top:6px;
+  background-color: white;
+  font-weight: normal;
+  font-family: Helvetica;
+  font-size:100%;
+  text-align: center;
+  border: 1px solid #D3D3D3 ;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+.results {
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  margin-top:14px;
+  border: 1px solid #D3D3D3 ;
+  background-color: white;
+  font-size: 100%;
+  color: gray;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+}
+#tax_percent_paying {
+  color:gray;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+strong {
+  font-weight: bold;
+  color: black;
+}
