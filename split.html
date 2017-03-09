@@ -1,0 +1,50 @@
+<!-- Lobster-->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster" />
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- end-->
+
+<body>
+<div class="container body">
+  <h1 class="lobster center"> Split Calculator</h1>
+  <h4 class="lobster center">Calculate your tip before taxes automatically</h4>
+    <div class="form-group">
+    <form action="javascript:void(calc())"><input type="number" inputmode="numeric" class="form-control" id="bill_with_taxes" placeholder="Total Bill $ with Taxes Included" value="">
+      </input></form>
+      <form action="javascript:void(calc())"><input type="number" inputmode="numeric" class="form-control" id="bill_no_taxes" placeholder="Total Bill $ Subtotal (Without taxes)" value="">
+      </input></form>
+      <form action="javascript:void(calc())"><input type="number" pattern="[0-9]*" inputmode="numeric" class="form-control" id="friends_html" placeholder="# of Friends" value="">
+      </input>
+  </form>
+<form action="javascript:void(calc())">
+<input type="number" pattern="[0-9]*" inputmode="numeric" class="form-control" id="my_tip" placeholder="Tip %">
+      </input>
+</form>
+<!-- dropdown-             
+<button class="btn btn-default dropdown-toggle btn-group-justified" type="button" data-toggle="dropdown" id="dropdown">
+  New York 
+  <span class="caret"></span>
+</button>
+<ul class="dropdown-menu" role="menu">
+  <li><a href="#">Miami</a></li>
+  <li><a href="#">Los Angeles</a></li>
+</ul>
+-->
+</div>
+<!--Calculate-->
+<div>
+<button class="btn btn-danger btn-group-justified" id="calculate_bold" onclick="calc()">Calculate</button>
+  </div>
+
+<!--//results-->
+
+<div class="results boxed">
+  <p>Tip Total (Based on Subtotal)<br><strong><span id="tip_result"></span></strong></p>
+  <p>Total (Including Tip & Tax)<span id="tax_percent_paying"></span><br><strong><span id="total_result"></span></strong></p>
+  <p>Per Person (Including Tip & Tax)<br><strong><span id="total_per_person_result"></span><strong></p>
+</div>
+</div>
+
+</div>
+</body>
